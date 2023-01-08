@@ -22,3 +22,12 @@ gitignore
 # System Files
 .DS_Store
 Thumbs.db
+
+# yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
