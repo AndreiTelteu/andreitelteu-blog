@@ -9,7 +9,8 @@
         "jsx": "preserve",
         "strict": false,
         "types": [
-            "solid-start/env"
+            "solid-start/env",
+            "mdx"
         ],
         "baseUrl": "./",
         "paths": {

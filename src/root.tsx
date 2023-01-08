@@ -1,18 +1,7 @@
 // @refresh reload
-import { Suspense } from 'solid-js';
-import {
-    A,
-    Body,
-    ErrorBoundary,
-    FileRoutes,
-    Head,
-    Html,
-    Meta,
-    Routes,
-    Scripts,
-    Title,
-} from 'solid-start';
+import { Body, Head, Html, Meta, Scripts, Title } from 'solid-start';
 import './root.css';
+import Router from './router';
 
 export default function Root() {
     return (
@@ -23,17 +12,7 @@ export default function Root() {
                 <Meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <Body>
-                <ErrorBoundary>
-                    <A href="/">Index</A>
-                    <A href="/about">About</A>
-                    <Suspense>
-                        <main>
-                            <Routes>
-                                <FileRoutes />
-                            </Routes>
-                        </main>
-                    </Suspense>
-                </ErrorBoundary>
+                <Router />
                 <Scripts />
             </Body>
         </Html>
