@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'dejavu_light';
+    src: url('./assets/fonts/DejaVuSans-ExtraLight.woff');
+    src: url('./assets/fonts/DejaVuSans-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dejavu';
+    src: url('./assets/fonts/DejaVuSans.woff');
+    src: url('./assets/fonts/DejaVuSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dejavu_bold';
+    src: url('./assets/fonts/DejaVuSans-Bold.woff');
+    src: url('./assets/fonts/DejaVuSans-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: dejavu, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
