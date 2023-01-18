@@ -24,4 +24,12 @@
 
 body {
     font-family: dejavu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+html,
+body {
+    height: var(--full-height);
+    margin: 0;
+    padding: 0;
 }

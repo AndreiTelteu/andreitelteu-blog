@@ -1,0 +1,20 @@
+.main-layout {
+    --background-color: black;
+    --background-accent: #00001c;
+    background: var(--background-color);
+    background: -moz-radial-gradient(
+        circle,
+        var(--background-accent) 30%,
+        var(--background-color) 100%
+    );
+    background: -webkit-radial-gradient(
+        circle,
+        var(--background-accent) 30%,
+        var(--background-color) 100%
+    );
+    background: radial-gradient(circle, var(--background-accent) 30%, var(--background-color) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00001c",endColorstr="#000000",GradientType=1);
+    background-position: right bottom;
+    background-size: 200% 200%;
+    background-attachment: fixed;
+}
