@@ -1,4 +1,6 @@
 .main-layout {
+    --container-max-width: 1600px;
+    --container-width: calc(100% - 40px);
     --background-color: black;
     --background-accent: #00001c;
     background: var(--background-color);
@@ -17,4 +19,10 @@
     background-position: right bottom;
     background-size: 200% 200%;
     background-attachment: fixed;
+    min-height: 100%;
+}
+.container {
+    max-width: var(--container-max-width);
+    width: var(--container-width);
+    margin: auto;
 }

@@ -1,6 +1,5 @@
 // @refresh reload
 import { Body, Head, Html, Meta, Scripts, Style, Title } from 'solid-start';
-import './root.css';
 import inline from './critical.css?inline';
 import Router from './router';
 import create100vh from '~/utils/create100vh';
